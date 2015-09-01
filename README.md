@@ -44,7 +44,65 @@ Output: Output gets displayed on the command prompt
  
 Input: to give the path of input file, one input file for one string each.
 Output: Output gets displayed on the command prompt
-
+----------------------------------------------------------------------------------------------------------------------
+Graph Implementation for Networking
+Read Me File
+Name: Vinoth Kumar Sadagopan
+Niner ID: 800850529
+Email: vsadagop@uncc.edu
+Programming Language Used: Java Programming Language
+Java Version: java 1.8.x
+Operating System : Windows OS
+Description Of the program:
+Program consistsof three classes
+1. Vertex
+2. Graph
+3. Min Heap
+Vertex Class has two tree map which captures edge list and its status respectively. Since these two data
+structure are used, hence there is no necessity to create a separate edge class
+Graph class
+It consists of a tree map which stores all the vertices in a graph.
+Reachable: uses BFS algorithm which runs on all vertices hence
+Running Time: V*O(V+E)
+Min Heap Class
+Min Heap is implementation Of Priority queue which implements the pseudo code given in CLRS
+Installation Instructions:
+Download JDK 1.8
+Set environment path to javac file found in the src\bin folder
+Commands to execute java file
+Down load the java file and place it in your local path
+One command prompt and get into the folder where u have stored the java file
+Use javac graph.java command to compile
+While running the program
+Java graph networkt.xt
+This command reads the input file and graph is formed initially.
+Then screen appears as follows
+Please enter queries as follows
+print
+path Belk Education
+edgedown Health Education
+path Health Education
+vertexdown Belk
+path Health Education
+print
+reachable
+POINTS TO NOTE
+BE CAREFUL WITH THE SPELLING OF THE VERTICES NAME, IT IS CASE SENSEITVE
+IF VERTICES NAME STARTS WITH A CAPITAL LETTER PLEASE EXCEUTE THE SAME WAY.
+EXAMPLE:
+edgedown Health Education
+LIST OF COMMANDS
+addedge
+deleteedge
+vertexup
+vertexdown
+edgeup
+edgedown
+path
+print
+reachable
+Please use the commands as mentioned above.
+All your commands would be in small letters
  		
  
 
